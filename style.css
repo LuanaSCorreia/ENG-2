@@ -11,9 +11,52 @@ body{
    border-radius: 2%;
 }
 
-div{
-    border:solid;
-    border-radius: 2%;
-    width: 90%;
-    height: 15vh;
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5vw;
+    height: 100vh;
+}
+
+#menu{
+    border-radius: 20px;
+    width: 80%;
+    height: 7vh;
+    background-image: url(/ingles.png),
+     url(/2.png);
+     background-position: left, right;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 8%;
+}
+
+.h1{
+    font-size: 2.7vw;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-weight: bold;
+}
+
+.inform{
+    width:80%;
+    padding: 2%;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.5vw;
+    accent-color: black;
+}
+
+.inform p{
+    width: 70%;
+}
+
+img{
+    width: 50%;
 }
