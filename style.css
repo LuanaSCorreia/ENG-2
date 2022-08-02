@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 600px;
+}
+
+body{
+   background:#FDEDD5; 
+   border: solid;
+   border-radius: 2%;
+}
+
+div{
+    border:solid;
+    border-radius: 2%;
+    width: 90%;
+    height: 15vh;
+}
